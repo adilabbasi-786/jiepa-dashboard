@@ -186,7 +186,7 @@ import { Badge, Calendar } from "antd";
 import { supabase } from "../config/supabaseClient";
 import Sidebar from "../components/Sidebar";
 
-const App = () => {
+const Calendar = () => {
   const [availableDates, setAvailableDates] = useState([]);
 
   useEffect(() => {
@@ -242,7 +242,7 @@ const App = () => {
   );
 };
 
-export default App;
+export default Calendar;
 
 // line 234,
 // select column availableday and show to calendar
