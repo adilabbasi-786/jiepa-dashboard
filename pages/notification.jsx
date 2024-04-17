@@ -1,33 +1,3 @@
-// import React from 'react';
-
-// const notification = () => {
-//   return (
-//     <div className="bg-gray-100 min-h-screen">
-//       <div className="p-4">
-//         <h2 className="text-2xl font-semibold mb-4">Notification</h2>
-//         <div className="max-w-lg m-auto">
-//           <table className="min-w-full bg-white border rounded">
-//             <thead>
-//               <tr>
-//                 <th className="border p-2">Full Name</th>
-//                 <th className="border p-2">Personal ID</th>
-//                 <th className="border p-2">Phone Number</th>
-//                 <th className="border p-2">Expected Entering Date</th>
-//                 <th className="border p-2">Expected Out Date</th>
-//               </tr>
-//             </thead>
-//             <tbody>
-//               {/* You can add rows here if needed */}
-//             </tbody>
-//           </table>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default notification;
-
 import React, { useState } from "react";
 import { Table, Tag } from "antd";
 import Sidebar from "../components/Sidebar";
